@@ -36,19 +36,22 @@
                     <form class="form">
                         <label>
                             <i class='bx bx-user-circle'></i>
-                            <input type="text"placeholder="Nombre Completo">
-                            
+                            <input type="text"placeholder="Nombre Completo" id="nombre">
+                            <div id="error-nombre"></div>
                         </label>
                         <label>
                             <i class='bx bx-envelope'></i>
-                            <input type="email"placeholder="E-mail de contacto">
+                            <input type="email"placeholder="E-mail de contacto" id="email">
+                            <div id="error-email"></div>
                         </label>
                         <label>
                             <i class='bx bx-text' ></i>
-                            <input type="text"placeholder="Dejanos tus dudas">
+                            <input type="text"placeholder="Dejanos tus dudas" id="dudas">
+                            <div id="error-dudas"></div>
                         </label>
-                        <input type="submit"placeholder="Enviar">
+                        <input type="submit"placeholder="Enviar" id="enviar">
                     </form>
+                    
                     
                 </div>
             </div>
@@ -56,6 +59,6 @@
         </div>
     </main>
 
-    
+    <script src="./JS/formulario.js"></script>
 </body>
 </html>

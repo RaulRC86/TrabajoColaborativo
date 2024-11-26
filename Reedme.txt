@@ -1,2 +1,0 @@
-Página en desarrollo.
-Falta crear contenido página Quienes Somos y dar funcionalidad a formulario.
